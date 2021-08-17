@@ -36,8 +36,12 @@ a {
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: var(--pale-blue);
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
   font-family: RedHatDisplay;
+  display: flex;
 }
 p {
   font-size: 16px;
@@ -47,10 +51,12 @@ p {
   max-width: 30vw;
   text-align: center;
   margin: 0 auto;
+  align-self: center;
   background-color: var(--verry-paleBlue);
   border-radius: var(--border-radius);
   height: 80%;
   box-shadow: 0 3px 15px -5px var(--desaturated-blue);
+  vertical-align: middle;
 }
 img {
   width: 100%;
